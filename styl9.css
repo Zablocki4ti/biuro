@@ -1,0 +1,57 @@
+main{
+    display: flex;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+header, footer {
+    background-color: #BA6B6C;
+    text-align: center;
+    height: 90px;
+    width: 100%;
+}
+footer {
+    color: white;
+}
+header a {
+    color:#ffff;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;  
+}
+h3{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center; 
+}
+h5{
+    text-align: left;
+}
+.left, .right{
+    background-color: #EF9A9A;
+    width: 20%;
+    height: 500px; 
+    padding: 7px;  
+}
+h3::first-letter{
+    font-size: 170%;
+    color:#8b0a0c
+}
+
+.center{
+    background-color: mistyrose;
+    width: 60%;
+    height: 1000px;
+}
+.center img {
+    margin: 7px;
+    box-shadow: 7px 7px 7px 7px dimgray
+}
+table{
+    margin: auto;
+    width: 80%;
+    border: solid 1px maroon
+}
